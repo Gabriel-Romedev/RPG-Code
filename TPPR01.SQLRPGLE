@@ -1,16 +1,12 @@
-000100210810     h copyright('© Banco Occidental de Descuento, B.U. 2013')
 000200210810     h DFTACTGRP(*no) ACTGRP(*caller)
 000300210810     H Option(*Nodebugio:*Srcstmt)
 000400210810     HDEBUG(*YES)
 000500210810     HDATFMT(*ISO)
 000600210810     hDatEdit(*YMD)
 000700210113     ?*?--------------------------------------------------------------------
-000800201018      *? B.O.D. BANCO UNIVERSAL                                    *
-000900201129      *? Vicepresidencia de Ingenieria y Transformación        *
-001000210113     ?*?--------------------------------------------------------------------
 001100210526      * Programa   : Recepcion de Recarga CC
 001200210526      * Fecha        : 26 / 05 / 2021
-001300210113      * Creado por : Ing. Jesús Romero.
+001300210113      * Creado por : Ing. JesÃºs Romero.
 001400201018     ?*?--------------------------------------------------------------------
 001500210601     FMNTOR     O  A E           K DISK
 001600210601     fCntrlBth  if   e           K DISK

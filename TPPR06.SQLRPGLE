@@ -1,15 +1,11 @@
-000100210727     h copyright('© Banco Occidental de Descuento, B.U. 2013')
 000200210727     h DFTACTGRP(*no) ACTGRP(*caller)
 000300210727     H Option(*Nodebugio:*Srcstmt)
 000400210727     HDEBUG(*YES)
 000500210727     HDATFMT(*ISO)
-000600210113     ?*?--------------------------------------------------------------------
-000700201018      *? B.O.D. BANCO UNIVERSAL                                    *
-000800201129      *? Vicepresidencia de Ingenieria y Transformación        *
 000900210113     ?*?--------------------------------------------------------------------
 001000210601      * Programa   : Envio de Ajustes y Devoluciones a CCC
 001100210524      * Fecha        : 05 / 24 / 2021
-001200210113      * Creado por : Ing. Jesús Romero.
+001200210113      * Creado por : Ing. JesÃºs Romero.
 001300210601     ?*?-------------------------------------------------------------------
 001400210601     FMNTOR     O  A E           K DISK
 001500210601     fCntrlBth  if   e           K DISK
@@ -370,7 +366,7 @@
 037000210526
 037100210529          ENDSR;
 037200211217       //------------------------------------------------------------//
-037300211217       //?  Rutina de Ejecución de Comando.                          //
+037300211217       //?  Rutina de EjecuciÃ³n de Comando.                          //
 037400211217       //------------------------------------------------------------//
 037500211217         Begsr Run_cmd;
 037600211217

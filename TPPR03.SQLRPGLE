@@ -1,16 +1,12 @@
-000100210727     h copyright('© Banco Occidental de Descuento, B.U. 2013')
 000200210727     h DFTACTGRP(*no) ACTGRP(*caller)
 000300210727     H Option(*Nodebugio:*Srcstmt)
 000400210727     HDEBUG(*YES)
 000500210727     HDATFMT(*ISO)
 000600210806     hDatEdit(*YMD)
-000700210113     ?*?--------------------------------------------------------------------
-000800201018      *? B.O.D. BANCO UNIVERSAL                                    *
-000900201129      *? Vicepresidencia de Ingenieria y Transformación        *
 001000210113     ?*?--------------------------------------------------------------------
 001100210526      * Programa   : Recepcion de Recarga CC
 001200210526      * Fecha        : 26 / 05 / 2021
-001300210113      * Creado por : Ing. Jesús Romero.
+001300210113      * Creado por : Ing. JesÃºs Romero.
 001400201018     ?*?--------------------------------------------------------------------
 001500210601     FMNTOR     O  A E           K DISK
 001600210601     fCntrlBth  if   e           K DISK
@@ -51,7 +47,7 @@
 005100210601     d CondError       s             50a   Inz(*Blanks)
 005200210617     d*-----------------------------------------------------------------
 005300210617      *?Programa que hace reverso de en caso de Rechazo
-005400210707     d TPRev           PR                  Extpgm('CM4950R')
+005400210707     d TPRev           PR                  Extpgm('XX')
 005500210617     d*-----------------------------------------------------------------
 005600210601      *?Programa que hace la transferencia
 005700210601     D SSH003          PR                  ExtPgm('SSH003')

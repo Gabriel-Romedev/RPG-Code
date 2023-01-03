@@ -1,0 +1,5 @@
+# RPG-Code
+SQLRPG | RPGLE 
+
+
+SEND IBM DB2 DATA. VIA SSH.
